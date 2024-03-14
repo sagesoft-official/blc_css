@@ -1,0 +1,1892 @@
+@import url("https://fonts.googleapis.com/css?family=Noto%20Sans%20TC");
+
+yt-live-chat-renderer {
+	background-color: transparent !important
+}
+
+yt-live-chat-ticker-renderer {
+	background-color: transparent !important;
+	box-shadow: none !important
+}
+
+yt-live-chat-author-chip #author-name {
+	background-color: transparent !important
+}
+
+yt-live-chat-item-list-renderer #items {
+	overflow: hidden !important
+}
+
+yt-live-chat-item-list-renderer #item-scroller {
+	overflow: hidden !important
+}
+
+yt-live-chat-text-message-renderer #content,yt-live-chat-membership-item-renderer #content {
+	overflow: visible !important
+}
+
+yt-live-chat-header-renderer,yt-live-chat-message-input-renderer {
+	display: none !important
+}
+
+yt-live-chat-text-message-renderer[is-deleted],yt-live-chat-membership-item-renderer[is-deleted] {
+	display: none !important
+}
+
+yt-live-chat-mode-change-message-renderer,yt-live-chat-viewer-engagement-message-renderer,yt-live-chat-restricted-participation-renderer {
+	display: none !important
+}
+
+yt-live-chat-text-message-renderer a,yt-live-chat-membership-item-renderer a {
+	text-decoration: none !important
+}
+
+yt-live-chat-renderer {
+}
+
+#item-scroller {
+}
+
+yt-live-chat-text-message-renderer {
+	padding-left: 4px !important;
+	padding-right: 4px !important
+}
+
+yt-live-chat-renderer * {
+	font-family: "Noto Sans TC","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","\5FAE \8F6F \96C5 \9ED1 ",SimHei,Arial,sans-serif;
+	font-size: 21.6px !important;
+	line-height: 14px !important
+}
+
+yt-live-chat-text-message-renderer #author-photo,yt-live-chat-text-message-renderer #author-photo img {
+	width: 60px !important;
+	height: 60px !important;
+	border-radius: 4px !important;
+	margin-right: 16px !important
+}
+
+yt-live-chat-membership-item-renderer #author-photo,yt-live-chat-membership-item-renderer #author-photo img {
+	width: 45px !important;
+	height: 45px !important;
+	border-radius: 3px !important;
+	margin-right: 11.25px !important
+}
+
+yt-live-chat-paid-message-renderer #author-photo,yt-live-chat-paid-message-renderer #author-photo img {
+	width: 55px !important;
+	height: 55px !important;
+	border-radius: 3px !important;
+	margin-right: 11.25px !important
+}
+
+yt-live-chat-text-message-renderer[author-type="member"] #author-photo {
+	margin-right: 15.6px !important
+}
+
+yt-live-chat-text-message-renderer #author-name[type="owner"],yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="owner"] {
+	color: #ffffff !important
+}
+
+yt-live-chat-text-message-renderer #author-name[type="moderator"],yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="moderator"] {
+	color: #ffffff !important
+}
+
+yt-live-chat-text-message-renderer #author-name[type="member"],yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="member"] {
+	color: #ffffff !important
+}
+
+yt-live-chat-text-message-renderer #author-name {
+	color: #ffffff !important;
+	font-family: "Noto Sans TC","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","\5FAE \8F6F \96C5 \9ED1 ",SimHei,Arial,sans-serif;
+	font-size: 20px !important;
+	line-height: 14px !important
+}
+
+yt-live-chat-text-message-renderer #chat-badges {
+	display: none !important;
+	vertical-align: text-top !important
+}
+
+yt-live-chat-author-medal-renderer {
+	display: none
+}
+
+yt-live-chat-author-medal-renderer[is-fan-group] {
+}
+
+#medal-name.yt-live-chat-author-medal-renderer {
+	font-size: 18px !important;
+	line-height: 18px !important
+}
+
+#medal-level.yt-live-chat-author-medal-renderer {
+	font-size: 18px !important;
+	line-height: 18px !important
+}
+
+yt-live-chat-text-message-renderer #message,yt-live-chat-text-message-renderer #message * {
+	color: #000000 !important;
+	font-family: "Noto Sans TC","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","\5FAE \8F6F \96C5 \9ED1 ",SimHei,Arial,sans-serif;
+	font-size: 15.6px !important;
+	line-height: 14px !important
+}
+
+yt-live-chat-text-message-renderer #message {
+	display: inline !important;
+	overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer #timestamp {
+	display: none !important;
+	color: #999999 !important;
+	font-family: "Noto Sans TC","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","\5FAE \8F6F \96C5 \9ED1 ",SimHei,Arial,sans-serif;
+	font-size: 21.6px !important;
+	line-height: 14px !important
+}
+
+body {
+	overflow: hidden;
+	background-color: rgba(0,0,0,0)
+}
+
+yt-live-chat-text-message-renderer,yt-live-chat-text-message-renderer[is-highlighted] {
+	background-color: rgba(204,204,204,0) !important
+}
+
+yt-live-chat-text-message-renderer[author-type="owner"],yt-live-chat-text-message-renderer[author-type="owner"][is-highlighted] {
+	background-color: rgba(255,214,0,0) !important
+}
+
+yt-live-chat-text-message-renderer[author-type="moderator"],yt-live-chat-text-message-renderer[author-type="moderator"][is-highlighted] {
+	background-color: rgba(94,132,241,0) !important
+}
+
+yt-live-chat-text-message-renderer[author-type="member"],yt-live-chat-text-message-renderer[author-type="member"][is-highlighted] {
+	background-color: rgba(15,157,88,0) !important
+}
+
+yt-live-chat-paid-message-renderer {
+	margin: 4px 0 !important
+}
+
+yt-live-chat-paid-message-renderer #author-name,yt-live-chat-paid-message-renderer #author-name *,yt-live-chat-membership-item-renderer #header-content-inner-column,yt-live-chat-membership-item-renderer #header-content-inner-column * {
+	color: #000000 !important;
+	font-family: "Noto Sans TC","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","\5FAE \8F6F \96C5 \9ED1 ",SimHei,Arial,sans-serif;
+	font-size: 15.6px !important;
+	line-height: 14px !important
+}
+
+yt-live-chat-paid-message-renderer #purchase-amount,yt-live-chat-paid-message-renderer #purchase-amount *,yt-live-chat-membership-item-renderer #header-subtext,yt-live-chat-membership-item-renderer #header-subtext * {
+	color: #000000 !important;
+	font-family: "Noto Sans TC","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","\5FAE \8F6F \96C5 \9ED1 ",SimHei,Arial,sans-serif;
+	font-size: 15.6px !important;
+	line-height: 14px !important
+}
+
+yt-live-chat-paid-message-renderer #content,yt-live-chat-paid-message-renderer #content * {
+	color: #000000 !important;
+	font-family: "Noto Sans TC","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","\5FAE \8F6F \96C5 \9ED1 ",SimHei,Arial,sans-serif;
+	font-size: 15.6px !important;
+	line-height: 14px !important
+}
+
+yt-live-chat-membership-item-renderer #card,yt-live-chat-membership-item-renderer #header {
+	background-color: transparent !important;
+	margin: 0 !important
+}
+
+yt-live-chat-ticker-paid-message-item-renderer,yt-live-chat-ticker-paid-message-item-renderer *,yt-live-chat-ticker-sponsor-item-renderer,yt-live-chat-ticker-sponsor-item-renderer * {
+	color: #000000 !important;
+	font-family: "Noto Sans TC","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","\5FAE \8F6F \96C5 \9ED1 ",SimHei,Arial,sans-serif
+}
+
+yt-live-chat-text-message-renderer {
+	overflow: visible;
+	margin: 0px 0px 0px 7px !important
+}
+
+yt-live-chat-paid-message-renderer {
+	margin: 22px 0px 0px 0px !important
+}
+
+yt-live-chat-text-message-renderer #image-and-message {
+	padding: 10px 10px 10px 10px;
+	border: 2px solid #ffffff;
+	border-radius: 14px;
+	background-color: #ffffff;
+	position: relative;
+	margin: 4px 0px 10px 9px;
+	width: fit-content
+}
+
+yt-live-chat-text-message-renderer yt-live-chat-author-chip {
+	position: relative
+}
+
+/* yt-live-chat-text-message-renderer #author-name::before {
+	content: "";
+	width: 24px;
+	height: 14px;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/message_item.png ");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	bottom: -18px;
+	left: -2px;
+	transform: rotate(1deg);
+	z-index: -1
+} */
+
+yt-live-chat-text-message-renderer[author-type="member"] #author-name::before,yt-live-chat-text-message-renderer[author-type="moderator"] #author-name::before,yt-live-chat-text-message-renderer[author-type="owner"] #author-name::before {
+	background-image: url("")
+}
+
+yt-live-chat-text-message-renderer[author-type="member"][is-owner="true"] #image-and-message,yt-live-chat-text-message-renderer[author-type="owner"] #image-and-message {
+	min-width: 40px;
+	border: 10px solid #ffffff;
+	border-radius: 24px !important;
+	background-color: #EDD9C4 !important;
+	box-shadow: 0 0 0 2px #7c627b;
+	margin: 120px 0px 15px 0px;
+	padding: 0px 10px 0px 10px
+}
+
+yt-live-chat-text-message-renderer[author-type="member"][is-owner="true"] #image-and-message::before,yt-live-chat-text-message-renderer[author-type="owner"] #image-and-message::before {
+	content: "";
+	width: 30px;
+	height: 30px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/owner_ear_left.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -1px;
+	top: -15.6px
+}
+
+yt-live-chat-text-message-renderer[author-type="member"][is-owner="true"] #image-and-message::after,yt-live-chat-text-message-renderer[author-type="owner"] #image-and-message::after {
+	content: "";
+	width: 30px;
+	height: 30px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/owner_ear_right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: -1px;
+	top: -15.6px
+}
+
+yt-live-chat-text-message-renderer[author-type="moderator"] #author-name::after,yt-live-chat-text-message-renderer[author-type="member"] #author-name::after,yt-live-chat-text-message-renderer[author-type="owner"] #author-name::after {
+	content: "";
+	background-image: url("")
+}
+
+yt-live-chat-text-message-renderer[author-type="moderator"] #image-and-message {
+	min-width: 40px;
+	border: 10px solid #ffffff;
+	border-radius: 24px !important;
+	background-color: #b6dde7 !important;
+	box-shadow: 0 0 0 2px #7c627b;
+	margin: 20px 0px 15px 0px;
+	padding: 0px 10px 0px 10px
+}
+
+yt-live-chat-text-message-renderer[author-type="moderator"] #image-and-message::before {
+	content: "";
+	width: 30px;
+	height: 30px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/moderator_ear_left.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -3px;
+	top: -25px
+}
+
+yt-live-chat-text-message-renderer[author-type="moderator"] #image-and-message::after {
+	content: "";
+	width: 30px;
+	height: 30px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/moderator_ear_right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: -3px;
+	top: -25px
+}
+
+yt-live-chat-text-message-renderer[author-type="member"] #content {
+	position: relative
+}
+
+yt-live-chat-text-message-renderer[author-type="member"] #image-and-message>img,yt-live-chat-text-message-renderer[author-type="member"] #message {
+	padding: 0px 10px 0px 0px !important;
+	position: relative;
+	top: -10px;
+	left: -5px
+}
+
+yt-live-chat-text-message-renderer[author-type="member"] #image-and-message::before {
+	content: "";
+	width: 14px;
+	height: 14px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/back_hand.png ");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -34px;
+	bottom: -13px
+}
+
+yt-live-chat-text-message-renderer[author-type="member"] #image-and-message {
+	min-width: 50px;
+	border: 0px solid transparent;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/member_message3.png");
+	padding: 0px 10px 0px 0px !important;
+	margin: 2px 10px 10px 4px;
+	border-width: 40px 30px 2px 14px;
+	border-style: solid transparent;
+	border-image-slice: 136 102 10 97 fill
+}
+
+yt-live-chat-text-message-renderer[author-type="member"] #image-and-message::after {
+	content: "";
+	width: 70px;
+	height: calc(100% + 52px);
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/member_message2.png "),url("http://blc.sagesoft.ltd/sage/static/front_hand.png ");
+	background-size: contain,49.2px 26.4px;
+	background-repeat: no-repeat,no-repeat;
+	background-position: top center,80% 100%;
+	position: absolute;
+	left: calc(100% - 15.6px);
+	bottom: -8px
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #content {
+	position: relative
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #image-and-message>img,yt-live-chat-text-message-renderer[author-type=""] #message {
+	padding: 0px 10px 0px 0px !important;
+	position: relative;
+	top: -10px;
+	left: -5px
+}
+
+/* yt-live-chat-text-message-renderer[author-type=""] #image-and-message::before {
+	content: "";
+	width: 14px;
+	height: 14px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/back_hand.png ");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -34px;
+	bottom: -13px
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #image-and-message {
+	min-width: 50px;
+	border: 0px solid transparent;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/member_message3.png");
+	padding: 0px 10px 0px 0px !important;
+	margin: 2px 10px 10px 4px;
+	border-width: 40px 30px 2px 14px;
+	border-style: solid transparent;
+	border-image-slice: 136 102 10 97 fill
+} */
+
+yt-live-chat-text-message-renderer[author-type=""] #message {
+    top: -1px;
+    left: 1px
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #image-and-message {
+	min-width: 40px;
+	border: 10px solid #ffffff;
+	border-radius: 24px !important;
+	background-color: #EDD9C4 !important;
+	box-shadow: 0 0 0 2px #7c627b;
+	margin: 20px 0px 15px 0px;
+	padding: 0px 10px 0px 10px
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #image-and-message::before {
+	content: "";
+	width: 30px;
+	height: 30px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/owner_ear_left.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -1px;
+	top: -15.6px
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #image-and-message::after {
+	content: "";
+	width: 30px;
+	height: 30px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/owner_ear_right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: -1px;
+	top: -15.6px
+}
+
+/* yt-live-chat-text-message-renderer[author-type=""] #image-and-message::after {
+	content: "";
+	width: 70px;
+	height: calc(100% + 52px);
+	border: 0px transparent solid;
+	background-image: url(""),url("http://blc.sagesoft.ltd/sage/static/message2.png");
+	background-size: contain,49.2px 49.2px;
+	background-repeat: no-repeat,no-repeat;
+	background-position: top center,40% 100%;
+	position: absolute;
+	left: calc(100% - 15.6px);
+	bottom: -8px
+} */
+
+yt-live-chat-text-message-renderer[privilegetype="3"] #author-photo {
+	overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="3"] #author-photo::after {
+	content: "";
+	width: 94px;
+	height: 80px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/level1.png ");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -17px;
+	top: 14px;
+	z-index: 1
+}
+
+yt-live-chat-text-message-renderer[privilegetype="2"] #author-photo::after {
+	content: "";
+	width: 94px;
+	height: 80px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/level2.png ");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -17px;
+	top: 15px;
+	z-index: 1
+}
+
+yt-live-chat-text-message-renderer[privilegetype="1"] #author-photo::after {
+	content: "";
+	width: 94px;
+	height: 80px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/level3.png ");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -17px;
+	top: 15px;
+	z-index: 1
+}
+
+#chat-badges,#header-subtext {
+	display: none
+}
+
+#header-content-inner-column::after {
+	content: "被羊驼吐了口水";
+	display: block;
+	font-size: 15.6px !important;
+	line-height: 14px !important;
+	padding: 10px 0px 20px 0px;
+	position: relative;
+	left: 14px
+}
+
+yt-live-chat-membership-item-renderer {
+	margin: 12px 0px 32px 0px
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #card {
+	overflow: visible !important;
+	position: relative;
+	border: 1px solid #fdf5f7;
+	border-radius: 50px 50px 10px 10px;
+	background-color: #f1f4f8 !important;
+	box-shadow: 7px -5px 0px 1px rgba(197,63,61,1)
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #card::before {
+	content: "";
+	width: calc(100% - 0px);
+	height: 50px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/new_member_level3.png ");
+	background-size: 465px 29px;
+	background-repeat: repeat-x;
+	position: absolute;
+	left: -15px;
+	bottom: -30px;
+	z-index: 1
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #card::after {
+	content: "";
+	width: 60px;
+	height: 60px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/medal_level1.png ");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: -20px;
+	bottom: -16px;
+	z-index: 2
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #card {
+	overflow: visible !important;
+	position: relative;
+	border: 1px solid #f8f9ff;
+	border-radius: 50px 50px 10px 10px;
+	background-color: #f1f4f8 !important;
+	box-shadow: 7px -5px 0px 1px rgba(114,95,181,1)
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #card::before {
+	content: "";
+	width: calc(100% - 0px);
+	height: 50px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/new_member_level2.png ");
+	background-size: 465px 29px;
+	background-repeat: repeat-x;
+	position: absolute;
+	left: -15px;
+	bottom: -30px;
+	z-index: 1
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #card::after {
+	content: "";
+	width: 60px;
+	height: 60px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/medal_level2.png ");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: -20px;
+	bottom: -16px;
+	z-index: 2
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #card {
+	overflow: visible !important;
+	position: relative;
+	border: 1px solid #f1f4f8;
+	border-radius: 50px 50px 10px 10px;
+	background-color: #f1f4f8 !important;
+	box-shadow: 7px -5px 0px 1px rgba(105,129,185,1)
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #card::before {
+	content: "";
+	width: calc(100% - 0px);
+	height: 50px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/new_member_level1.png ");
+	background-size: 465px 29px;
+	background-repeat: repeat-x;
+	position: absolute;
+	left: -15px;
+	bottom: -30px;
+	z-index: 1
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #card::after {
+	content: "";
+	width: 60px;
+	height: 60px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/medal_level3.png ");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: -20px;
+	bottom: -16px;
+	z-index: 2
+}
+
+#card.yt-live-chat-paid-message-renderer {
+	-webkit-box-shadow: 0 0px 0px #000;
+	box-shadow: 0 0px 0px #000
+}
+
+yt-live-chat-paid-message-renderer #header,yt-live-chat-paid-message-renderer #content {
+	background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer,yt-live-chat-paid-message-renderer #card {
+	overflow: visible !important
+}
+
+yt-live-chat-paid-message-renderer #header {
+	padding: 0px 16px 8px 16px !important
+}
+
+yt-live-chat-paid-message-renderer #author-photo {
+	position: relative;
+	top: -6px;
+	left: -22px
+}
+
+yt-live-chat-paid-message-renderer #header-content {
+	position: relative;
+	top: -3px;
+	left: -20px
+}
+
+/* yt-live-chat-paid-message-renderer[price-level] #content::before {
+	content: "";
+	width: 60px;
+	height: 60px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/battery.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 35px;
+	right: 62px;
+	z-index: 2
+} */
+
+yt-live-chat-paid-message-renderer[price-level="0.1"] #card {
+	overflow: visible !important;
+	border: 0px solid transparent;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/sc_blue_item1.png");
+	padding: 0px !important;
+	margin: 2px 0px 16px 4px;
+	border-width: 30px;
+	border-style: solid transparent;
+	border-image-slice: 60 60 60 60 fill
+}
+
+yt-live-chat-paid-message-renderer[price-level="0.1"] #content::after {
+	content: "";
+	width: calc(100% - 53px);
+	height: calc(100% - 33px);
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_blue_item2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 16px;
+	bottom: 15px;
+	z-index: -1
+}
+
+yt-live-chat-paid-message-renderer[price-level="0.1"] #card::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_blue_ear_left.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	left: 45px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="0.1"] #card::after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_blue_ear_right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	right: 43px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer #content {
+	border: 1px solid #c8d1e5;
+	border-radius: 22px !important;
+	background-color: #c8d1e5 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"] #card {
+	overflow: visible !important;
+	border: 0px solid transparent;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/sc_waterblue_item1.png");
+	padding: 0px !important;
+	margin: 2px 0px 16px 4px;
+	border-width: 30px;
+	border-style: solid transparent;
+	border-image-slice: 60 60 60 60 fill
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"] #content::after {
+	content: "";
+	width: calc(100% - 53px);
+	height: calc(100% - 33px);
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_blue_item2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 16px;
+	bottom: 15px;
+	z-index: -1
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"] #card::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_waterblue_ear_left.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	left: 45px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"] #card::after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_waterblue_ear_right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	right: 43px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"] #content {
+	border: 1px solid #cce8eb;
+	border-radius: 22px !important;
+	background-color: #cce8eb !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"] #card {
+	overflow: visible !important;
+	border: 0px solid transparent;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/sc_yellow_item1.png");
+	padding: 0px !important;
+	margin: 2px 0px 16px 4px;
+	border-width: 30px;
+	border-style: solid transparent;
+	border-image-slice: 60 60 60 60 fill
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"] #content::after {
+	content: "";
+	width: calc(100% - 53px);
+	height: calc(100% - 33px);
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_yellow_item2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 16px;
+	bottom: 15px;
+	z-index: -1
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"] #card::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_yellow_ear_left.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	left: 45px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"] #card::after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_yellow_ear_right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	right: 43px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"] #content {
+	border: 1px solid #cce8eb;
+	border-radius: 22px !important;
+	background-color: #cce8eb !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"] #card {
+	overflow: visible !important;
+	border: 0px solid transparent;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/sc_orange_item1.png");
+	padding: 0px !important;
+	margin: 2px 0px 16px 4px;
+	border-width: 30px;
+	border-style: solid transparent;
+	border-image-slice: 60 60 60 60 fill
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"] #content::after {
+	content: "";
+	width: calc(100% - 53px);
+	height: calc(100% - 33px);
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_orange_item2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 16px;
+	bottom: 15px;
+	z-index: -1
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"] #card::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_orange_ear_left.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	left: 45px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"] #card::after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_orange_ear_right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	right: 43px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"] #content {
+	border: 1px solid #f8dcba;
+	border-radius: 22px !important;
+	background-color: #f8dcba !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"] #card {
+	overflow: visible !important;
+	border: 0px solid transparent;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/sc_pink_item1.png");
+	padding: 0px !important;
+	margin: 2px 0px 16px 4px;
+	border-width: 30px;
+	border-style: solid transparent;
+	border-image-slice: 60 60 60 60 fill
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"] #content::after {
+	content: "";
+	width: calc(100% - 53px);
+	height: calc(100% - 33px);
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_pink_item2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 16px;
+	bottom: 15px;
+	z-index: -1
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"] #card::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_pink_ear_left.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	left: 45px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"] #card::after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_pink_ear_right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	right: 43px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"] #content {
+	border: 1px solid #ecc1d4;
+	border-radius: 22px !important;
+	background-color: #ecc1d4 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"] #card {
+	overflow: visible !important;
+	border: 0px solid transparent;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/sc_red_item1.png");
+	padding: 0px !important;
+	margin: 2px 0px 16px 4px;
+	border-width: 30px;
+	border-style: solid transparent;
+	border-image-slice: 60 60 60 60 fill
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"] #content::after {
+	content: "";
+	width: calc(100% - 53px);
+	height: calc(100% - 33px);
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_red_item2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 16px;
+	bottom: 15px;
+	z-index: -1
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"] #card::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_red_ear_left.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	left: 45px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"] #card::after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_red_ear_right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	right: 43px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"] #content {
+	border: 1px solid #f2b1af;
+	border-radius: 22px !important;
+	background-color: #f2b1af !important
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #message {
+	display: inline;
+	line-height: 38px !important
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #content::before {
+	content: "";
+	background-image: url("")
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #content,yt-live-chat-paid-message-renderer[giftname="superchat"] #message {
+	margin: 0px !important;
+	padding: 0px !important;
+	width: 85%
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #purchase-amount::after {
+	content: "";
+	word-break: break-all;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: 0px
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #message {
+	position: relative !important;
+	left: 10%
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="1"] #content {
+	border: 0px solid #f2b1af;
+	background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="1"] #message {
+	margin: 0px;
+	width: fit-content;
+	border: 0px solid #f2b1af;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/sc_waterblue_item3.png");
+	padding: 0px !important;
+	margin: 2px 0px 10px 4px;
+	border-width: 20px 10px 20px 0px;
+	border-style: solid transparent;
+	border-image-slice: 72 34 72 34;
+	background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,rgba(204,232,235,1) 50%,rgba(204,232,235,1) 99.5%,rgba(111,189,224,1) 99.8%);
+	background-size: 200%;
+	background-position: 0 0;
+	background-clip: padding-box;
+	-webkit-animation: naomi-sc-text-select cubic-bezier(.59,.03,.05,1.05) 0.8s;
+	animation: naomi-sc-text-select cubic-bezier(.59,.03,.05,1.05) 0.8s;
+	animation-delay: 400ms;
+	animation-fill-mode: both;
+	overflow: hidden
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="1"] #message::before {
+	content: "";
+	width: 30px;
+	height: 21px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_waterblue_item4.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -19px;
+	left: -4px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="30"] #content {
+	border: 0px solid #f2b1af;
+	background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="30"] #message {
+	margin: 0px;
+	width: fit-content;
+	border: 0px solid #f2b1af;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/sc_yellow_item3.png");
+	padding: 0px !important;
+	margin: 2px 0px 10px 4px;
+	border-width: 20px 10px 20px 0px;
+	border-style: solid transparent;
+	border-image-slice: 72 34 72 34;
+	background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,rgba(239,240,181,1) 50%,rgba(239,240,181,1) 99.5%,rgba(196,184,105,1) 99.8%);
+	background-size: 200%;
+	background-position: 0 0;
+	background-clip: padding-box;
+	-webkit-animation: naomi-sc-text-select-30 cubic-bezier(.59,.03,.05,1.05) 0.8s;
+	animation: naomi-sc-text-select-30 cubic-bezier(.59,.03,.05,1.05) 0.8s;
+	animation-delay: 400ms;
+	animation-fill-mode: both;
+	overflow: hidden
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="30"] #message::before {
+	content: "";
+	width: 30px;
+	height: 21px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_yellow_item4.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -19px;
+	left: -4px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="30"] #purchase-amount {
+	width: fit-content;
+	white-space: nowrap;
+	border: 1px solid #dddddd;
+	border-radius: 22px !important;
+	background-color: #d0c687;
+	padding: 6px 14px 6px 32px;
+	margin: 0px 0px 20px 0px;
+	position: relative;
+	opacity: 0%;
+	-webkit-animation: naomi-sc-scale-in-ease cubic-bezier(.3,-0.02,.29,1.24) 1.0s;
+	animation: naomi-sc-scale-in-ease cubic-bezier(.3,-0.02,.29,1.24) 0.4s;
+	animation-delay: 1000ms;
+	animation-fill-mode: forwards
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="30"] #purchase-amount::before {
+	content: '';
+	display: block;
+	position: absolute;
+	border-top: 5px solid #fff;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	bottom: -9px;
+	left: 8%;
+	border-top: 10px solid #d0c687;
+	border-left: 2px solid transparent;
+	border-right: 10px solid transparent
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="50"] #content {
+	border: 0px solid #f2b1af;
+	background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="50"] #message {
+	margin: 0px;
+	width: fit-content;
+	border: 0px solid #f2b1af;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/sc_orange_item3.png");
+	padding: 0px !important;
+	margin: 2px 0px 10px 4px;
+	border-width: 20px 10px 20px 0px;
+	border-style: solid transparent;
+	border-image-slice: 72 34 72 34;
+	background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,rgba(248,220,186,1) 50%,rgba(248,220,186,1) 99.5%,rgba(213,135,85,1) 99.8%);
+	background-size: 200%;
+	background-position: 0 0;
+	background-clip: padding-box;
+	-webkit-animation: naomi-sc-text-select-50 cubic-bezier(.59,.03,.05,1.05) 0.8s;
+	animation: naomi-sc-text-select-50 cubic-bezier(.59,.03,.05,1.05) 0.8s;
+	animation-delay: 400ms;
+	animation-fill-mode: both;
+	overflow: hidden
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="50"] #message::before {
+	content: "";
+	width: 30px;
+	height: 21px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_orange_item4.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -19px;
+	left: -4px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="50"] #purchase-amount {
+	width: fit-content;
+	white-space: nowrap;
+	border: 1px solid #dddddd;
+	border-radius: 22px !important;
+	background-color: #dd9f77;
+	padding: 6px 14px 6px 32px;
+	margin: 0px 0px 20px 0px;
+	position: relative;
+	opacity: 0%;
+	-webkit-animation: naomi-sc-scale-in-ease cubic-bezier(.3,-0.02,.29,1.24) 1.0s;
+	animation: naomi-sc-scale-in-ease cubic-bezier(.3,-0.02,.29,1.24) 0.4s;
+	animation-delay: 1000ms;
+	animation-fill-mode: forwards
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="50"] #purchase-amount::before {
+	content: '';
+	display: block;
+	position: absolute;
+	border-top: 5px solid #fff;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	bottom: -9px;
+	left: 8%;
+	border-top: 10px solid #dd9f77;
+	border-left: 2px solid transparent;
+	border-right: 10px solid transparent
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="100"] #content {
+	border: 0px solid #f2b1af;
+	background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="100"] #message {
+	margin: 0px;
+	width: fit-content;
+	border: 0px solid #f2b1af;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/sc_pink_item3.png");
+	padding: 0px !important;
+	margin: 2px 0px 10px 4px;
+	border-width: 20px 10px 20px 0px;
+	border-style: solid transparent;
+	border-image-slice: 72 34 72 34;
+	background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,rgba(236,193,212,1) 50%,rgba(236,193,212,1) 99.5%,rgba(207,93,138,1) 99.8%);
+	background-size: 200%;
+	background-position: 0 0;
+	background-clip: padding-box;
+	-webkit-animation: naomi-sc-text-select-100 cubic-bezier(.59,.03,.05,1.05) 0.8s;
+	animation: naomi-sc-text-select-100 cubic-bezier(.59,.03,.05,1.05) 0.8s;
+	animation-delay: 400ms;
+	animation-fill-mode: both
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="100"] #message::before {
+	content: " ";
+	width: 30px;
+	height: 21px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_pink_item4.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -19px;
+	left: -4px;
+	z-index: 2;
+	padding-left: 10px
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="100"] #purchase-amount {
+	width: fit-content;
+	white-space: nowrap;
+	border: 1px solid #dddddd;
+	border-radius: 22px !important;
+	background-color: #d97da1;
+	padding: 6px 14px 6px 32px;
+	margin: 0px 0px 20px 0px;
+	position: relative;
+	opacity: 0%;
+	-webkit-animation: naomi-sc-scale-in-ease cubic-bezier(.3,-0.02,.29,1.24) 1.0s;
+	animation: naomi-sc-scale-in-ease cubic-bezier(.3,-0.02,.29,1.24) 0.4s;
+	animation-delay: 1000ms;
+	animation-fill-mode: forwards
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="100"] #purchase-amount::before {
+	content: '';
+	display: block;
+	position: absolute;
+	border-top: 5px solid #fff;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	bottom: -9px;
+	left: 8%;
+	border-top: 10px solid #d97da1;
+	border-left: 2px solid transparent;
+	border-right: 10px solid transparent
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="1000"] #content {
+	border: 0px solid #f2b1af;
+	background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="1000"] #message {
+	margin: 0px;
+	width: fit-content;
+	border: 0px solid #f2b1af;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/sc_red_item3.png");
+	padding: 0px !important;
+	margin: 2px 0px 10px 4px;
+	border-width: 20px 10px 20px 0px;
+	border-style: solid transparent;
+	border-image-slice: 72 34 72 34;
+	background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,rgba(242,177,175,1) 50%,rgba(242,177,175,1) 99.5%,rgba(222,59,52,1) 99.8%);
+	background-size: 200%;
+	background-position: 0 0;
+	background-clip: padding-box;
+	-webkit-animation: naomi-sc-text-select-1000 cubic-bezier(.59,.03,.05,1.05) 0.8s;
+	animation: naomi-sc-text-select-1000 cubic-bezier(.59,.03,.05,1.05) 0.8s;
+	animation-delay: 400ms;
+	animation-fill-mode: both;
+	overflow: hidden
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="1000"] #message::before {
+	content: "";
+	width: 30px;
+	height: 21px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_red_item4.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -19px;
+	left: -4px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="1000"] #purchase-amount {
+	width: fit-content;
+	white-space: nowrap;
+	border: 1px solid #dddddd;
+	border-radius: 22px !important;
+	background-color: #e5625d;
+	padding: 6px 14px 6px 32px;
+	margin: 0px 0px 20px 0px;
+	position: relative;
+	opacity: 0%;
+	-webkit-animation: naomi-sc-scale-in-ease cubic-bezier(.3,-0.02,.29,1.24) 1.0s;
+	animation: naomi-sc-scale-in-ease cubic-bezier(.3,-0.02,.29,1.24) 0.4s;
+	animation-delay: 1000ms;
+	animation-fill-mode: forwards
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="1000"] #purchase-amount::before {
+	content: '';
+	display: block;
+	position: absolute;
+	border-top: 5px solid #fff;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	bottom: -9px;
+	left: 8%;
+	border-top: 10px solid #e5625d;
+	border-left: 2px solid transparent;
+	border-right: 10px solid transparent
+}
+
+yt-live-chat-text-message-renderer #author-photo {
+	overflow: visible !important;
+	position: relative !important;
+	top: 17px
+}
+
+yt-live-chat-text-message-renderer[author-type="owner"] #author-photo,yt-live-chat-text-message-renderer[author-type="member"] #author-photo,yt-live-chat-text-message-renderer[author-type="moderator"] #author-photo {
+	overflow: visible !important;
+	position: relative !important;
+	top: 20px
+}
+
+yt-live-chat-paid-message-renderer #content {
+	text-align: center
+}
+
+yt-live-chat-paid-message-renderer[giftname="superchat"] #content {
+	text-align: left
+}
+
+yt-live-chat-paid-message-renderer #author-name {
+	max-width: 154px
+}
+
+yt-live-chat-text-message-renderer[author-type="member"][is-owner="true"] #author-photo,yt-live-chat-text-message-renderer[author-type="owner"] #author-photo {
+	position: absolute !important;
+	right: -96px;
+	z-index: 2
+}
+
+yt-live-chat-text-message-renderer[author-type="member"][is-owner="true"],yt-live-chat-text-message-renderer[author-type="owner"] {
+	margin: 0px 94px 10px 0px !important;
+	justify-content: flex-end
+}
+
+yt-live-chat-text-message-renderer[author-type="member"][is-owner="true"] #card,yt-live-chat-text-message-renderer[author-type="owner"] #card {
+	margin: 42px 0px 0px 0px !important
+}
+
+yt-live-chat-text-message-renderer[author-type="member"][is-owner="true"] #image-and-message,yt-live-chat-text-message-renderer[author-type="owner"] #image-and-message {
+	margin: 0px !important;
+	position: relative
+}
+
+yt-live-chat-text-message-renderer[author-type="member"][is-owner="true"] yt-live-chat-author-chip,yt-live-chat-text-message-renderer[author-type="owner"] yt-live-chat-author-chip {
+	margin: 0px 0px 16px 0px;
+	justify-content: flex-end;
+	text-align: right !important;
+	width: 500px;
+	position: absolute;
+	top: 0px;
+	right: 0px
+}
+
+yt-live-chat-text-message-renderer {
+	margin: 0px 0px 0px 15px !important
+}
+
+@keyframes naomi-sc-scale-in-ease {
+	0% {
+		transform: translateY(100%) scale(1.0);
+		opacity: 10%
+	}
+
+	60% {
+		transform: translateY(10%) scale(1.0);
+		opacity: 80%
+	}
+
+	100% {
+		transform: translateY(15%) scale(1.0);
+		opacity: 100%
+	}
+}
+
+@keyframes naomi-sc-text-select-30 {
+	0% {
+		background-position: 0 0;
+		border-width: 0px
+	}
+
+	45% {
+		border-width: 0px
+	}
+
+	65% {
+		background-position: -100% 0;
+		background-size: 200%;
+		box-shadow: 0px 0px 0px 0px rgba(239,240,181,1) inset
+	}
+
+	70% {
+		border-width: 0px;
+		box-shadow: 0px 0px 0px 2px rgba(239,240,181,1) inset
+	}
+
+	85% {
+		background-position: -95% 0;
+		background-size: 210%;
+		border-width: 20px 10px 20px 0px
+	}
+
+	100% {
+		background-position: -95% 0;
+		background-size: 210%;
+		border-width: 20px 10px 20px 0px;
+		box-shadow: 0px 0px 0px 2px rgba(239,240,181,1) inset
+	}
+}
+
+@keyframes naomi-sc-text-select-50 {
+	0% {
+		background-position: 0 0;
+		border-width: 0px
+	}
+
+	45% {
+		border-width: 0px
+	}
+
+	65% {
+		background-position: -100% 0;
+		background-size: 200%;
+		box-shadow: 0px 0px 0px 0px rgba(248,220,186,1) inset
+	}
+
+	70% {
+		border-width: 0px;
+		box-shadow: 0px 0px 0px 2px rgba(248,220,186,1) inset
+	}
+
+	85% {
+		background-position: -95% 0;
+		background-size: 210%;
+		border-width: 20px 10px 20px 0px
+	}
+
+	100% {
+		background-position: -95% 0;
+		background-size: 210%;
+		border-width: 20px 10px 20px 0px;
+		box-shadow: 0px 0px 0px 2px rgba(248,220,186,1) inset
+	}
+}
+
+@keyframes naomi-sc-text-select-100 {
+	0% {
+		background-position: 0 0;
+		border-width: 0px
+	}
+
+	45% {
+		border-width: 0px
+	}
+
+	65% {
+		background-position: -100% 0;
+		background-size: 200%;
+		box-shadow: 0px 0px 0px 0px rgba(236,193,212,1) inset
+	}
+
+	70% {
+		border-width: 0px;
+		box-shadow: 0px 0px 0px 2px rgba(236,193,212,1) inset
+	}
+
+	85% {
+		background-position: -95% 0;
+		background-size: 210%;
+		border-width: 20px 10px 20px 0px
+	}
+
+	100% {
+		background-position: -95% 0;
+		background-size: 210%;
+		border-width: 20px 10px 20px 0px;
+		box-shadow: 0px 0px 0px 2px rgba(236,193,212,1) inset
+	}
+}
+
+@keyframes naomi-sc-text-select-1000 {
+	0% {
+		background-position: 0 0;
+		border-width: 0px
+	}
+
+	45% {
+		border-width: 0px
+	}
+
+	65% {
+		background-position: -100% 0;
+		background-size: 200%;
+		box-shadow: 0px 0px 0px 0px rgba(242,177,175,1) inset
+	}
+
+	70% {
+		border-width: 0px;
+		box-shadow: 0px 0px 0px 2px rgba(242,177,175,1) inset
+	}
+
+	85% {
+		background-position: -95% 0;
+		background-size: 210%;
+		border-width: 20px 10px 20px 0px
+	}
+
+	100% {
+		background-position: -95% 0;
+		background-size: 210%;
+		border-width: 20px 10px 20px 0px;
+		box-shadow: 0px 0px 0px 2px rgba(242,177,175,1) inset
+	}
+}
+
+@keyframes normal {
+	0% {
+		transform: translate(-100px,0px);
+		filter: opacity(0)
+	}
+
+	100% {
+		transform: translate(0px,0px);
+		filter: opacity(100%)
+	}
+}
+
+@keyframes owner {
+	0% {
+		transform: translate(100px,0px);
+		filter: opacity(0)
+	}
+
+	100% {
+		transform: translate(0px,0px);
+		filter: opacity(100%)
+	}
+}
+
+@keyframes swing {
+	0% {
+		transform: rotateX(-110deg);
+		transform-origin: bottom;
+		filter: opacity(0)
+	}
+
+	100% {
+		transform: rotateX(0);
+		transform-origin: bottom;
+		filter: opacity(100%)
+	}
+}
+
+@keyframes wave {
+	0% {
+		transform: translate(100%,0px);
+		filter: opacity(0)
+	}
+
+	100% {
+		transform: translate(0px,0px);
+		filter: opacity(100%)
+	}
+}
+
+@keyframes shadow1 {
+	0% {
+		transform: translate(20px,-20px);
+		filter: opacity(0);
+		box-shadow: 0px 0px 0px 0px rgba(197,63,61,1) !important
+	}
+
+	100% {
+		box-shadow: 7px -5px 0px 1px rgba(197,63,61,1) !important
+	}
+}
+
+@keyframes shadow2 {
+	0% {
+		transform: translate(20px,-20px);
+		filter: opacity(0);
+		box-shadow: 0px 0px 0px 0px rgba(197,63,61,1) !important
+	}
+
+	100% {
+		box-shadow: 7px -5px 0px 1px rgba(105,129,185,1) !important
+	}
+}
+
+@keyframes shadow3 {
+	0% {
+		transform: translate(20px,-20px);
+		filter: opacity(0);
+		box-shadow: none
+	}
+
+	100% {
+		box-shadow: 7px -5px 0px 1px rgba(105,129,185,1)
+	}
+}
+
+@keyframes gift {
+	0% {
+		transform: translate(20px,20px);
+		filter: opacity(0)
+	}
+
+	20% {
+		filter: opacity(0)
+	}
+
+	100% {
+	}
+}
+
+@keyframes giftshadow {
+	0% {
+		transform: translate(-20px,-20px);
+		filter: opacity(0)
+	}
+
+	20% {
+		filter: opacity(0)
+	}
+
+	100% {
+	}
+}
+
+yt-live-chat-text-message-renderer {
+	animation-name: normal;
+	animation-duration: 800ms;
+	animation-fill-mode: both;
+	animation-iteration-count: 1
+}
+
+yt-live-chat-text-message-renderer[author-type="member"][is-owner="true"],yt-live-chat-text-message-renderer[author-type="owner"] {
+	animation-name: owner;
+	animation-duration: 800ms;
+	animation-fill-mode: both;
+	animation-iteration-count: 1
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #card {
+	animation-name: shadow1;
+	animation-duration: 800ms;
+	animation-fill-mode: both;
+	animation-iteration-count: 1
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #card {
+	animation-name: shadow2;
+	animation-duration: 800ms;
+	animation-fill-mode: both;
+	animation-iteration-count: 1
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #card {
+	animation-name: shadow3;
+	animation-duration: 800ms;
+	animation-fill-mode: both;
+	animation-iteration-count: 1
+}
+
+yt-live-chat-membership-item-renderer #card::before {
+	animation-name: wave;
+	animation-delay: 600ms;
+	animation-duration: 2000ms;
+	animation-fill-mode: both;
+	animation-iteration-count: 1
+}
+
+yt-live-chat-paid-message-renderer {
+	animation-name: gift;
+	animation-duration: 800ms;
+	animation-fill-mode: both;
+	animation-iteration-count: 1
+}
+
+yt-live-chat-paid-message-renderer #content::after {
+	animation-name: giftshadow;
+	animation-duration: 800ms;
+	animation-fill-mode: both;
+	animation-iteration-count: 1
+}
+
+yt-live-chat-text-message-renderer #image-and-message {
+	display: block !important
+}
+
+yt-live-chat-text-message-renderer #image-and-message {
+	display: block !important
+}
+
+yt-live-chat-text-message-renderer #image-and-message {
+	display: block !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"] #content {
+	visibility: visible !important;
+	display: block !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"] #card {
+	overflow: visible !important;
+	border: 0px solid transparent;
+	background-color: transparent !important;
+	border-image-source: url("http://blc.sagesoft.ltd/sage/static/sc_blue_item1.png");
+	padding: 0px !important;
+	margin: 2px 0px 16px 4px;
+	border-width: 30px;
+	border-style: solid transparent;
+	border-image-slice: 60 60 60 60 fill
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"] #content::after {
+	content: "";
+	width: calc(100% - 53px);
+	height: calc(100% - 33px);
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_blue_item2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 16px;
+	bottom: 15px;
+	z-index: -1
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"] #card::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_blue_ear_left.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	left: 45px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"] #card::after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/sc_blue_ear_right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -13px;
+	right: 43px;
+	z-index: 2
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"] #content {
+	border: 1px solid #c8d1e5;
+	border-radius: 22px !important;
+	background-color: #c8d1e5 !important;
+	padding: 8px 16px !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"] #purchase-amount {
+	visibility: hidden
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"] #author-name::after {
+	content: "银瓜子";
+	position: absolute !important;
+	bottom: 0px;
+	left: 0px
+}
+
+/* yt-live-chat-paid-message-renderer[price-level="0"] #content::before {
+	content: "";
+	width: 50px;
+	height: 60px;
+	border: 0px transparent solid;
+	background-image: url("http://blc.sagesoft.ltd/sage/static/nuts.png");
+	background-size: 50px 42px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 42px;
+	right: 68px;
+	z-index: 2
+} */
+
+yt-live-chat-interact-message-renderer #message,
+yt-live-chat-interact-message-renderer #message * {
+	color: #000000 !important;
+}
+
+/* 互动消息弹幕用户名颜色 interactMessageUserNameColor  */
+yt-live-chat-interact-message-renderer #author-name {
+	color: #000000 !important;
+}
