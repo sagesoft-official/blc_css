@@ -59,8 +59,8 @@ yt-live-chat-renderer * {
 }
 
 yt-live-chat-text-message-renderer #author-photo,yt-live-chat-text-message-renderer #author-photo img {
-	width: 40px !important;
-	height: 40px !important;
+	width: 24px !important;
+	height: 24px !important;
 	border-radius: 4px !important;
 	margin-right: 2.5px !important
 }
@@ -1395,13 +1395,13 @@ yt-live-chat-paid-message-renderer[giftname="superchat"][price-level="1000"] #pu
 yt-live-chat-text-message-renderer #author-photo {
 	overflow: visible !important;
 	position: relative !important;
-	top: 32px
+	top: 17px
 }
 
 yt-live-chat-text-message-renderer[author-type="owner"] #author-photo,yt-live-chat-text-message-renderer[author-type="member"] #author-photo,yt-live-chat-text-message-renderer[author-type="moderator"] #author-photo {
 	overflow: visible !important;
 	position: relative !important;
-	top: 32px
+	top: 20px
 }
 
 yt-live-chat-paid-message-renderer #content {
